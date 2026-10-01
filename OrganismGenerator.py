@@ -1,11 +1,12 @@
 import random 
 
 
-def generate_organism():
+def generate_organism(organism):
     ## initial organism generator and population maker
     last_names=["Lowrey","Cartman","Crude","Bine","Murray","Williams"]
     colour=["Green","Blue","Red","Pink","Grey","Yellow","Black"]
     traits=["Strong","Fast","Fruitful"]
+
 
     trait_amount=random.randint(0,len(traits))
 
@@ -24,5 +25,8 @@ def generate_organism():
 
 
 
-
-print(generate_organism())
+if __name__=="__main__":
+    organism={}
+    for i in range(3):
+        organisms=generate_organism(organism)
+        print(organisms)
