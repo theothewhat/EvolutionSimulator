@@ -1,7 +1,7 @@
 import random 
 
 
-def generate_organism(organism):
+def generate_organism():
     ## initial organism generator and population maker
     last_names=["Lowrey","Cartman","Crude","Bine","Murray","Williams"]
     colour=["Green","Blue","Red","Pink","Grey","Yellow","Black"]
